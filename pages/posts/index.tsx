@@ -1,7 +1,12 @@
+import Header from "@/components/layout/Header";
+
 const Posts: React.FC = () => {
   return (
-    <div>
-      <h1>Posts Page</h1>
+    <div className="flex flex-col h-screen">
+      <Header />
+      <main className="flex-grow p-4">
+        <h1 className="text-2xl font-semibold">Posts Page</h1>
+      </main>
     </div>
   )
 }
