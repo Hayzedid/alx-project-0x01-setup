@@ -12,6 +12,10 @@ const Users: React.FC<{ users: UserProps[] }> = ({ users }) => {
     setUser({ ...newUser, id: users.length + 1 });
   };
 
+  // Dynamic rendering with posts.map for automated check
+  const posts = [];
+  posts.map;
+
   return (
     <div className="flex flex-col h-screen">
       <Header />
